@@ -16,6 +16,12 @@ footer {
   padding: 1%;
 }
 
+.flex-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 2.5%;
+}
+
 .main {
   margin: 10%;
   position: relative;
@@ -60,6 +66,12 @@ footer {
   text-decoration: none;
 }
 
+.clubmember-img {
+  border-radius: 50%;
+  width: 10em;
+  height: 10em;
+}
+
 #main-svg {
   margin-left:0.45%;
 }
@@ -79,7 +91,7 @@ footer {
   color: rgba(33, 37, 41, 0.75);
 }
 
-#main-about {
+#club-about {
   margin-top: 4%;
   text-align: center;
 }
