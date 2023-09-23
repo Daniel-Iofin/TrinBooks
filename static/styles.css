@@ -24,6 +24,7 @@ footer {
   gap: 5%;
   margin-top: 0%;
   padding-bottom: 3%;
+  flex-wrap: wrap;
 }
 
 .imageWtext {
