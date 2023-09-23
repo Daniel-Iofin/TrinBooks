@@ -8,4 +8,8 @@ app = Flask(__name__, static_url_path='', static_folder='static')
 def index():
     return render_template('index.html')
 
+@app.route('/about')
+def macro():
+    return render_template('about.html')
+
 app.run(debug=True)
