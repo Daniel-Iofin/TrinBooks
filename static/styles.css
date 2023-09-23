@@ -9,6 +9,13 @@ h3 {
   margin: auto;
 }
 
+footer {
+  color: rgba(33, 37, 41, 0.9);
+  text-align: center;
+  line-height: 0.5;
+  padding: 1%;
+}
+
 .main {
   margin: 10%;
   position: relative;
@@ -72,9 +79,7 @@ h3 {
   color: rgba(33, 37, 41, 0.75);
 }
 
-footer {
-  color: rgba(33, 37, 41, 0.9);
+#main-about {
+  margin-top: 4%;
   text-align: center;
-  line-height: 0.5;
-  padding: 1%;
 }
