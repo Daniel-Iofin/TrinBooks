@@ -46,7 +46,7 @@ h3 {
 
 .link {
   text-decoration: underline;
-  text-decoration-color: rgba(33, 37, 41, 0.75);
+  text-decoration-color: rgba(33, 37, 41, 0.6);
 }
 
 .noline {
@@ -59,6 +59,7 @@ h3 {
 
 #club-description:hover span {
   display: none;
+  color: rgba(33, 37, 41, 1);
 }
 
 #club-description:hover:before {
@@ -69,4 +70,11 @@ h3 {
 
 #projects {
   color: rgba(33, 37, 41, 0.75);
+}
+
+footer {
+  color: rgba(33, 37, 41, 0.9);
+  text-align: center;
+  line-height: 0.5;
+  padding: 1%;
 }
