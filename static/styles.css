@@ -42,3 +42,13 @@ h3 {
 #main-svg {
   margin-left:0.45%;
 }
+
+#club-description:hover span {
+  display: none;
+}
+
+#club-description:hover:before {
+  content: "Trinity's #1 Coding Club";
+  font-size: 200%;
+  color: rgba(33, 37, 41, 0.75);
+}
