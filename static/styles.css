@@ -13,14 +13,17 @@ footer {
   color: rgba(33, 37, 41, 0.9);
   text-align: center;
   line-height: 0.5;
-  padding: 1%;
+  padding-top: 1%;
+  padding-bottom: 1%;
   background-color: rgba(0, 0, 0, 0.05);
 }
 
 .flex-container {
   display: flex;
   justify-content: center;
+  gap: 5%;
   margin-top: 0%;
+  padding-bottom: 3%;
 }
 
 .imageWtext {
