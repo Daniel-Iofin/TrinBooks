@@ -7,6 +7,8 @@ try:
     listings_schema = """
                 CREATE TABLE listings(
                 id INTEGER PRIMARY KEY,
+                listersEmail TEXT,
+                title TEXT,
                 course TEXT,
                 condition TEXT,
                 price INTEGER,

@@ -11,11 +11,16 @@ h3 {
 
 .main {
   margin: 10%;
+  position: relative;
+  left: -3%;
+  top: -1%;
 }
 
 .about {
   font-size: 170%;
   margin-top: 35%;
+  position: relative;
+  top: -1.5%
 }
 
 .navbar {
@@ -31,12 +36,21 @@ h3 {
   font-weight: bold;
 }
 
-#trin {
+.blue {
   color: #0000FF;
 }
 
-#labs {
+.gold {
   color: #EBCC0D;
+}
+
+.link {
+  text-decoration: underline;
+  text-decoration-color: rgba(33, 37, 41, 0.75);
+}
+
+.noline {
+  text-decoration: none;
 }
 
 #main-svg {
@@ -50,5 +64,9 @@ h3 {
 #club-description:hover:before {
   content: "Trinity's #1 Coding Club";
   font-size: 200%;
+  color: rgba(33, 37, 41, 0.75);
+}
+
+#projects {
   color: rgba(33, 37, 41, 0.75);
 }
