@@ -44,9 +44,8 @@ footer {
 
 .about {
   font-size: 170%;
-  margin-top: 35%;
   position: relative;
-  top: -1.5%
+  top: 4vh
 }
 
 .navbar {
