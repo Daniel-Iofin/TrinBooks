@@ -1,3 +1,7 @@
+body {
+  height: 100%; 
+}
+
 h2 {
   font-size: 300%;
 }
@@ -116,4 +120,16 @@ footer {
 #team-header {
   text-align: center;
   margin-top: 3.5%;
+}
+
+.main-part {
+  min-height: calc(75vh);
+}
+
+.footer {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  height: 5%;
 }
