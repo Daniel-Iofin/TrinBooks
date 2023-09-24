@@ -5,11 +5,15 @@ import sqlite3
 from random import randint
 app = Flask(__name__, static_url_path='', static_folder='static')
 
-connect = sqlite3.connect("bookDB.db")
 
 @app.route('/')
 def index():
-    return render_template('index.html')
+    bookDB = sqlite3.connect("bookDB.db")
+    cursor = bookDB.cursor()
+    cursor.execute("SELECT * FROM listings;")
+
+    data = cursor.fetchall()
+    return render_template('index.html', data=data)
 
 @app.route('/about')
 def about():
@@ -27,7 +31,7 @@ def newListing():
 
         with sqlite3.connect("bookDB.db") as bookDB:
             cursor = bookDB.cursor()
-            cursor.execute("INSERT INTO listings values(?, ?, ?, ?, ?, ?, ?)", (randint(0, 9223372036854775807), email, title, course, condition, price, info))
+            cursor.execute("INSERT INTO listings values(?, ?, ?, ?, ?, ?, ?);", (randint(0, 9223372036854775807), email, title, course, condition, price, info))
             bookDB.commit()
         
     return render_template('new-listing.html')
