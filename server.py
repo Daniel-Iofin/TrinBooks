@@ -10,7 +10,11 @@ def index():
     return render_template('index.html')
 
 @app.route('/about')
-def macro():
+def about():
     return render_template('about.html')
+
+@app.route('/new-listing')
+def newListing():
+    return render_template('new-listing.html')
 
 app.run(debug=True)
