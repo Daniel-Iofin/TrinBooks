@@ -1,5 +1,5 @@
 body {
-  height: 100%; 
+  height: 100%;
 }
 
 h2 {
@@ -42,15 +42,17 @@ footer {
   top: -1%;
 }
 
-.about {
+.navbar-element {
   font-size: 170%;
   position: relative;
-  top: 4vh
+  top: 3vh;
 }
 
 .navbar {
     padding: 0%;
     margin: 0%;
+    height: 10vh;
+    width: 100%;
 }
 
 .created-by {
@@ -122,7 +124,7 @@ footer {
 }
 
 .main-part {
-  min-height: calc(73vh);
+  min-height: calc(82vh);
 }
 
 .footer {
@@ -130,5 +132,5 @@ footer {
   bottom: 0;
   width: 100%;
   text-align: center;
-  height: 5%;
+  height: 8vh;
 }
