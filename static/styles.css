@@ -55,8 +55,15 @@ footer {
     width: 100%;
 }
 
-.created-by {
+.main-header {
   text-align: center;
+}
+
+.sub-header {
+  font-size: 100%;
+  text-align: center;
+  margin-top: -1%;
+  color: rgba(33, 37, 41, 0.6);
 }
 
 .bold {
@@ -116,7 +123,7 @@ footer {
 }
 
 .background {
-  border-radius: 10px;
+  border-radius: 15px;
 }
 
 .listings {
@@ -160,4 +167,10 @@ footer {
 #team-header {
   text-align: center;
   margin-top: 3.5%;
+}
+
+#new-listing-form {
+  margin-top: 2%;
+  margin-left: 40%;
+  width: 50%;
 }

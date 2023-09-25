@@ -10,6 +10,8 @@
   <body>
     {% include 'nav_bar.html' %}
     <div class="main-part">
+      <br/>
+      <h2 class="main-header">Current Listings</h2>
       <div class="listings">
         {% for listing in data %}
           <div class="{{loop.cycle('blue-background', 'gold-background')}} background">
