@@ -94,6 +94,45 @@ footer {
   color: rgba(33, 37, 41, 0.8);
 }
 
+.main-part {
+  min-height: calc(82vh);
+}
+
+.footer {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  height: 8vh;
+}
+
+.gold-background {
+  background: #EBCC0D;
+}
+
+.blue-background {
+  background: #0000FF;
+  color: #FFFFFF;
+}
+
+.background {
+  border-radius: 10px;
+}
+
+.listings {
+  margin: auto;
+  width: 90%;
+  padding-left: 10vw;
+  padding-right: 10vw;
+}
+
+.listing-text {
+  width: 80%;
+  margin: auto;
+  padding-left: 5vw;
+  padding-right: 5vw;
+}
+
 #main-svg {
   margin-left:0.45%;
 }
@@ -121,16 +160,4 @@ footer {
 #team-header {
   text-align: center;
   margin-top: 3.5%;
-}
-
-.main-part {
-  min-height: calc(82vh);
-}
-
-.footer {
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  text-align: center;
-  height: 8vh;
 }
